@@ -91,3 +91,9 @@
 ## Pointers example
 
 .play pointers/pointers.go
+
+## Defer
+
+    A defer statement defers the execution of a function until the surrounding function returns.
+
+.play defer/defer.go
