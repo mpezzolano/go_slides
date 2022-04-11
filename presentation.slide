@@ -23,6 +23,17 @@
 
 - Run the app. with this command : $ go run example.go
 
+## Workspaces
+
+    The go tool derives build instructions from Go source code.
+    There's no need to write and maintain build scripts.
+    For this to work, some prescribed directory structure, known as a workspace, is required.
+
+    `workspace/
+       bin # executable binaries
+       pkg # compiled object files
+       src # source code`
+
 ## Vars
 
 .play vars/vars.go
