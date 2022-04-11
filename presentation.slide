@@ -1,0 +1,53 @@
+# Go Lang
+
+## History
+
+- Project starts at Google in 2007 (by Griesemer, Pike, Thompson)
+- Open source release in November 2009
+- More than 250 contributors join the project
+- Version 1.0 release in March 2012
+
+## Interesting Links
+
+.link https://golang.org/   The Project ( golang.org )
+
+.link https://go.dev/play/  Golang Playground ( go.dev/play )
+
+.link golang.org/doc/install How install Go ( golang.org/doc/install )
+
+## Test your Go installation
+
+- Add this code into a file, for example example.go
+
+.code example/example.go
+
+- Run the app. with this command : $ go run example.go
+
+## Vars
+
+.play vars/vars.go
+.link https://go.dev/tour/basics/8
+
+.caption _Gopher_ by [[Marcelo Pezzolano]]
+
+## Functions
+
+.play functions/functions.go
+
+.caption _Gopher_ by [[Marcelo Pezzolano]]
+
+## Structs
+
+.code structs/structs1.go
+
+.caption _Gopher_ by [[Marcelo Pezzolano]]
+
+## Example of Handle Structs
+
+.code structs/structs.go /^func main/,/^}/
+
+.caption _Gopher_ by [[Marcelo Pezzolano]]
+
+## Pointers
+
+.play pointers/pointers.go
