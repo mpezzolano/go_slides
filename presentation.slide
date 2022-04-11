@@ -30,11 +30,22 @@
 
 .caption _Gopher_ by [[Marcelo Pezzolano]]
 
+## Packages
+
+    All code made in Golang are organized by packages.
+    We can´t have two packages in the same directory.
+
 ## Functions
 
 .play functions/functions.go
 
 .caption _Gopher_ by [[Marcelo Pezzolano]]
+
+## Functions with Multiple returns
+
+    A function in go can return any numbers of results.
+
+.play functions/functions_multiple_returns.go
 
 ## Structs
 
